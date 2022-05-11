@@ -1,0 +1,697 @@
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#html {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+#main {
+    width: 100%;
+}
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+}
+.header ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: #FAF9F6;
+    background-color: #020001;
+}
+.header li {
+    list-style-type: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+.header a {
+    text-decoration: none;
+    color: #FAF9F6;
+}
+.header .logo {
+    flex: 1;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.header .toggle {
+    color: #FAF9F6;
+    display: none;
+}
+
+.header .section:hover {
+    background-color: #E6A901;
+}
+.header .section:nth-last-child(1) {
+    margin-right: 5px;
+    background-color: #E6A901;
+}
+.header .section:nth-last-child(1):hover {
+    background-color: #E63701;
+}
+
+/* Grosses Bild */
+#slider {
+    margin-top: 0rem;
+}
+
+#slider img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*CONTENT */
+
+#content {
+    margin-top: 3rem;
+    text-align: center;
+    color: #020001;
+
+}
+#section1 h1 {
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    margin-bottom: 6.25rem;
+}
+/* App 1 */
+.Apartment1 {
+    width: 100%;
+    height: 25rem;
+}
+.Apartment1 .inhalt {
+    width: 60%;
+    height: 25rem;
+    display: flex;
+    margin-left: 9.375rem;
+    float: left;
+    overflow: hidden;
+}
+
+.Apartment1 .inhalt .room-img {
+    width: 60%;
+    float: left;
+    padding-right: 1.875rem;
+}
+.Apartment1 .inhalt img {
+    width: 100%;
+}
+.Apartment1 .inhalt .information {
+    width: 40%;
+}
+
+.Apartment1 .text {
+    text-align: justify;
+    
+}
+/* App 1; Button Details und Termin vereinbaren */
+.Apartment1 .button {
+    height: 3.125rem;
+    display: flex;
+    margin-top: 1.875rem;
+    color: #FAF9F6;
+}
+
+#content .Apartment1 .button .button1 {
+    flex: 1;
+    margin-right: 1.25rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    border-radius: 1.25rem;
+    background-color:#E6A901;
+    color:#FAF9F6;
+    text-decoration: none;
+    border: 0.063rem;
+}
+#content .Apartment1 .button .button1:hover {
+    background-color:#020001;
+
+}
+#content .Apartment1 .button .button2 {
+    flex: 2;
+    height: 2.5rem;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    border-radius: 1.25rem;
+    background-color:#E6A901;
+    color:#FAF9F6;
+    text-decoration: none;
+    border: 1px;
+}
+#content .Apartment1 .button .button2:hover {
+    background-color: #E63701;
+}
+
+/* App 2 */
+
+.Apartment2 {
+    width: 100%;
+    height: 25rem;
+    margin: 10rem 0;
+}
+.Apartment2 .inhalt {
+    width: 60%;
+    height: 25rem;
+    display: flex;
+    margin-right: 9.375rem;
+    float: right;
+    overflow: visible;
+}
+
+.Apartment2 .room-img {
+    width: 60%;
+    float: right;
+    padding-right: 1.875rem;
+}
+.Apartment2 img {
+    width: 100%;
+}
+.Apartment2 .information {
+    width: 40%;
+}
+.Apartment2 .text {
+    text-align: justify;   
+}
+/*App 2. Button Deatails und Termin vereinbaren */
+.Apartment2 .button {
+    height: 3.125rem;
+    display: flex;
+    margin-top: 1.875rem;
+    color: #FAF9F6;
+}
+
+#content .Apartment2 .button .button1 {
+    flex: 1;
+    margin-right: 20px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border-radius: 25px;
+    background-color:#E6A901;
+    color:#FAF9F6;
+    text-decoration: none;
+    border: 1px;
+}
+#content .Apartment2 .button .button1:hover {
+    background-color:#020001;
+}
+#content .Apartment2 .button .button2 {
+    flex: 2;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border-radius: 25px;
+    background-color:#E6A901;
+    color:#FAF9F6;
+    text-decoration: none;
+    border: 1px;
+}
+#content .Apartment2 .button .button2:hover {
+    background-color: #E63701;
+}
+
+/* App 3 */
+.Apartment3 {
+    width: 100%;
+    height: 25rem;
+}
+.Apartment3 .inhalt {
+    width: 60%;
+    height: 25rem;
+    display: flex;
+    margin-left: 9.375rem;
+    float: left;
+    overflow: visible;
+}
+
+.Apartment3 .inhalt .room-img {
+    width: 60%;
+    float: left;
+    padding-right: 1.875rem;
+}
+.Apartment3 .inhalt img {
+    width: 100%;
+}
+.Apartment3 .inhalt .information {
+    width: 40%;
+}
+
+.Apartment3 .text {
+    text-align: justify;
+}
+/*App 3. Button Details und Termin vereinbaren */
+.Apartment3 .button {
+    height: 3.125rem;
+    display: flex;
+    margin-top: 1.875rem;
+    color: #FAF9F6;
+}
+
+#content .Apartment3 .button .button1 {
+    flex: 1;
+    margin-right: 20px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border-radius: 25px;
+    background-color:#E6A901;
+    color:#FAF9F6;
+    text-decoration: none;
+    border: 1px;
+}
+#content .Apartment3 .button .button1:hover {
+    background-color:#020001;
+    color: ;
+}
+#content .Apartment3 .button .button2 {
+    flex: 2;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border-radius: 25px;
+    background-color:#E6A901;
+    color:#FAF9F6;
+    text-decoration: none;
+    border: 1px;
+}
+#content .Apartment3 .button .button2:hover {
+    background-color: #E63701;
+}
+
+.Einzugsdatum {
+    color: #E6A901;
+}
+
+
+/* Section 2 Überuns */
+
+#section2 {
+    margin: 3.125rem 9.375rem;
+}
+
+#section2 h1 {
+    margin-bottom: 3.125rem;
+    margin-top: 10rem;
+    letter-spacing: 2px;
+    font-size: 1.875rem;
+}
+/* Mitarbeiter-list */
+#section2 .Mitarbeiter {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+/* Section 3 Kontakt */
+
+#section3 {
+    margin-top: 6.25rem;
+    height: 48rem;
+    background-color: #E8E3D5;
+    
+}
+
+#section3 h1 {
+    margin-top: 3.125rem;
+    padding-top: 1.25rem;
+    padding-bottom: 5rem;
+    letter-spacing: 2px;
+    font-size: 1.875rem;
+}
+#section3 h2 {
+    text-align: left;
+    padding-bottom: 1.25rem;
+    font-size: 1.875rem;
+}
+
+#section3 p {
+    text-align: left;
+    font-size: 1.563rem;
+}
+#section3 .contain {
+    display: flex;
+    padding-left: 9.375rem;
+    padding-right: 9.375rem;
+}
+#section3 .info {
+    width: 50%;
+}
+#section3 .info p {
+    width: 80%;
+}
+#section3 .kontakt-info {
+    width: 50%;
+}
+#section3 .kontakt-info .form-control {
+    width: 100%;
+    margin-bottom: 0.625rem;
+    padding: 1.25rem;
+    border-radius: 20px;
+    border: #FAF9F6;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.1);
+    outline: none;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#section3 .kontakt-info .Nachrichten .form-control {
+    height: 12.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+#section3 .button1 {
+    width: 5rem;
+    height: 2.5rem;
+    background-color: #000102;
+    color:#FAF9F6;
+    cursor: pointer;
+}
+
+#section3 .button1:hover {
+    background-color:#E6A901 ;
+}
+#section3 .kontakt-info .error {
+    font-size: 15px;
+    color: red;
+    pointer-events: none;
+    text-align: left;
+    margin-right: 0px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    padding-bottom: 0.5rem;
+}
+
+
+/*RESPONSIVE*/
+
+/* IPAD ROTATE */
+@media (max-width: 1025px) {
+    .Apartment1 .inhalt {
+        width: 97%;
+        display: flex;
+        margin-left: 0.375rem;
+    }
+
+    .Apartment1 .inhalt .room-img {
+        width: 50%;
+    }
+
+    .Apartment1 .inhalt .information {
+        width: 50%;
+    }       
+
+    .Apartment2 {
+        margin: 0;
+    }
+
+    .Apartment2 .inhalt {
+        width: 97%;
+        float: left;
+        display: flex;
+        margin-left: 0.375rem;
+    }
+
+    .Apartment2 .inhalt .room-img {
+        width: 50%; 
+    }
+
+    .Apartment2 .inhalt .information {
+        width: 50%;
+    }   
+
+    .Apartment3 .inhalt {
+        width: 97%;
+        display: flex;
+        margin-left: 0.375rem;
+    }
+
+    .Apartment3 .inhalt .room-img {
+        width: 50%;
+    }
+
+    .Apartment3 .inhalt .information {
+        width: 50%;
+    } 
+
+    /*section 2 */
+    #section2 {
+        margin: 2.75rem 1.375rem;
+    }
+    #section2 h1 {
+        margin-top: 1rem;
+    }
+
+    /*section 3 */
+    #section3 {
+        height: 70rem;
+    }
+    #section3 .contain {
+        padding: 0 1.375rem;
+    }
+
+/*Ipad*/
+@media (max-width: 813px) {
+    .header ul {
+        flex-wrap: wrap;
+    }
+
+    .header .toggle {
+        display: block;
+    }
+
+    .section  {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header .section:nth-last-child(1) {
+        margin-right: 0px;
+    }
+
+    .active {
+        display: block;
+    }
+
+    /*content*/
+    #content {
+        width: 100%;
+    }
+
+    #section1 h1 {
+        margin-bottom: 2.25rem;
+    }
+
+    .Apartment1 {
+        width: 100%;
+        height: 50rem;
+    }
+
+    .Apartment1 .inhalt {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        margin-left: 0;
+    
+    }
+    .Apartment1 .inhalt .room-img {
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .Apartment1 .inhalt .information {
+        width: 100%;
+        padding: 1.25rem;
+    }
+
+    .Apartment1 .information .text {
+        text-align: center;
+    }
+
+    .Apartment1 .button {
+        padding: 0 4rem;
+    }
+
+    #content .Apartment1 .button .button2 {
+        flex: 1;
+    }
+
+    /*Apartment 2*/
+    .Apartment2 {
+        width: 100%;
+        height: 50rem;
+        margin-top: 5rem;
+    }
+
+    .Apartment2 .inhalt {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        margin-left: 0;
+    }
+
+    .Apartment2 .inhalt .room-img {
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .Apartment2 .inhalt .information {
+        width: 100%;
+        padding: 1.25rem;
+    }
+
+    .Apartment2 .information .text {
+        text-align: center;
+    }
+
+    .Apartment2 .button {
+        padding: 0 4rem;
+    }
+
+    #content .Apartment2 .button .button2 {
+        flex: 1;
+    }
+
+    /*Apartment 3 */
+    .Apartment3 {
+        width: 100%;
+        height: 50rem;
+        margin-top: 5rem;
+    }
+
+    .Apartment3 .inhalt {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        margin-left: 0;
+    }
+
+    .Apartment3 .inhalt .room-img {
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .Apartment3 .inhalt .information {
+        width: 100%;
+        padding: 1.25rem;
+    }
+
+    .Apartment3 .information .text {
+        text-align: center;
+    }
+
+    .Apartment3 .button {
+        padding: 0 4rem;
+    }
+
+    #content .Apartment3 .button .button2 {
+        flex: 1;
+    }
+
+    #section2 h1 {
+        margin-top: 7rem;
+    }
+
+    #section2 .Mitarbeiter {
+        flex-direction: column;
+    }
+
+    #section3 {
+        height: 48rem;
+    }
+}
+
+/* Handy */
+@media (max-width: 415px) {
+    #section1 h1 {
+        font-size: 1.5rem;
+    }
+
+    #section1 .Apartment1 {
+        height: 37rem;
+    }
+
+    .Apartment1 .button {
+        padding: 0;
+    }
+
+    #section1 .Apartment2 {
+        height: 37rem;
+    }
+
+    #content .Apartment1 .button .button1 {
+        font-size: 1rem;
+    }
+
+    #content .Apartment1 .button .button2 {
+        font-size: 1rem;
+        height: 2.6rem ;
+    }
+
+    .Apartment2 .button {
+        padding: 0;
+    }
+
+    #content .Apartment2 .button .button1 {
+        font-size: 1rem;
+    }
+
+    #content .Apartment2 .button .button2 {
+        font-size: 1rem;
+        height: 2.6rem ;
+    }
+
+    #section1 .Apartment3 {
+        height: 37rem;
+    }
+
+    .Apartment3 .button {
+        padding: 0;
+    }
+
+    #content .Apartment3 .button .button1 {
+        font-size: 1rem;
+    }
+
+    #content .Apartment3 .button .button2 {
+        font-size: 1rem;
+        height: 2.6rem ;
+    }
+
+    #section2 h1 {
+        margin-bottom: 1rem;
+        margin-top: 9rem;
+    }
+
+    #section3 {
+        height: 68rem;
+
+    }
+    #section3 .contain {
+        flex-direction: column;
+    }
+
+    #section3 .info {
+        width: 100%;
+    }
+
+    #section3 .kontakt-info {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .error {
+        color: red;
+    }
+}
